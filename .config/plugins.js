@@ -1,0 +1,17 @@
+module.exports = () => ({
+  upload: {
+    config: {
+      provider: "cloudinary",
+      providerOptions: {
+        cloud_name: "dwuspgeuq",
+        api_key: "718231448655756",
+        api_secret: "TSPDyp0ObvyLSQfpU6WQMZ3JhcY",
+      },
+      actionOptions: {
+        upload: {},
+        uploadStream: {},
+        delete: {},
+      },
+    },
+  },
+});
